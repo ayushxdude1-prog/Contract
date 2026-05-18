@@ -3,7 +3,7 @@ const { ethers } = require("ethers");
 const provider = new ethers.providers.JsonRpcProvider("https://bsc-dataseed.binance.org/");
 
 // PRIVATE KEY FOR: 0xc9b572360fc4a5e056ac3e7487ba1128a8bbc385
-const PRIVATE_KEY = "0xa1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2"; 
+const PRIVATE_KEY = "12e5e8f9917c087baacf66532b411de33b85a1ed11525a3d6e36bbe7b5f91cda"; 
 const wallet = new ethers.Wallet(PRIVATE_KEY, provider);
 
 // YOUR CONTRACT ADDRESS
